@@ -14,7 +14,7 @@ def countdown_with_sleep (integer)
   while x >= 0
     puts "#{x} SECONDS(S)!"
     x -= 1
-    sleep (1)
+    sleep (0.5)
   end
  return "HAPPY NEW YEAR!"
 end
